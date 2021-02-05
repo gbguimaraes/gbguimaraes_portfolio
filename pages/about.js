@@ -33,7 +33,7 @@ export default function Home() {
         </div>
 
         {/* Navigate between pages use Link */}
-
+          
         <div className={home.grid}> 
           <Link href="./about">
             <a className={home.card}>
@@ -65,6 +65,13 @@ export default function Home() {
             </p>
           </a>
         </div>
+        
+        <div className={pages.backTo}>
+            <Link href="/">
+              <a>← Back to home</a>
+            </Link>
+        </div>
+        
       </main>
 
 
