@@ -50,6 +50,7 @@
 .title a {
   color: #1c64f2;
   text-decoration: none;
+  font-family: Inter, var(--font-default);
 }
 
 /* .title a:hover,
