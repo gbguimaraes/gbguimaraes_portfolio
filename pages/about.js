@@ -6,7 +6,18 @@ import home from '../styles/Home.module.css'
 
 export default function Home() {
   return (
+    
     <div className={pages.container}>
+      <nav className={pages.nav}>
+        <Link href="/">
+        <a className={pages.card}>Home</a>
+        </Link>
+
+        <Link href="./about">
+        <a className={pages.card}>About</a>
+        </Link>
+      </nav>
+
       <Head>
         <title>Guilherme B. Guimarães</title>
         <link rel="icon" href="/favicon.ico" />

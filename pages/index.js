@@ -6,7 +6,18 @@ import home from '../styles/Home.module.css'
 
 export default function Home() {
   return (
+
     <div className={pages.container}>
+      <nav className={pages.nav}>
+        <Link href="/">
+        <a className={pages.card}>Home</a>
+        </Link>
+
+        <Link href="./about">
+        <a className={pages.card}>About</a>
+        </Link>
+      </nav>
+
       <Head>
         <title>Guilherme B. Guimarães</title>
         <link rel="icon" href="/favicon.ico" />
@@ -71,7 +82,7 @@ export default function Home() {
       <footer className={pages.footer}>
         <div className={pages.link}><a className="link" href="https://github.com/gbguimaraes/gbguimaraes_portfolio">Source code on Github</a></div>
         
-        <a>| Copyright © 2021 Guilherme B. Guimarães</a>
+        <a>© 2021 Made with <img src="/github.svg" alt="GitHub Logo" className={pages.logo}/> Guilherme B. Guimarães</a>
       </footer>
     </div>
   )
