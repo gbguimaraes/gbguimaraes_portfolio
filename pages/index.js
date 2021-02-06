@@ -3,10 +3,8 @@ import Link from 'next/link'
 import pages from '../styles/Pages.module.css'
 import home from '../styles/Home.module.css'
 
-
 export default function Home() {
   return (
-
     <div className={pages.container}>
       <nav className={pages.nav}>
         <Link href="/">
@@ -16,6 +14,7 @@ export default function Home() {
         <Link href="./about">
         <a className={pages.card}>About</a>
         </Link>
+
       </nav>
 
       <Head>
@@ -82,7 +81,7 @@ export default function Home() {
       <footer className={pages.footer}>
         <div className={pages.link}><a className="link" href="https://github.com/gbguimaraes/gbguimaraes_portfolio">Source code on Github</a></div>
         
-        <a>© 2021 Made with <img src="/github.svg" alt="GitHub Logo" className={pages.logo}/> Guilherme B. Guimarães</a>
+        <a>© 2021 Made with<img src="/heart-outline.svg" alt="GitHub Logo" className={pages.logofooter}/> Guilherme B. Guimarães</a>
       </footer>
     </div>
   )

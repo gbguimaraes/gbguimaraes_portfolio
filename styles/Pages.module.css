@@ -72,6 +72,11 @@
   padding: 0px 8px;
 }
 
+.logofooter {
+  height: 2.7em;
+  padding: 0px 3px;
+}
+
 .backTo {
   margin: 3rem 0 0;
   font-weight: bold;
