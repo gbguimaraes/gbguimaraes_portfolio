@@ -32,11 +32,11 @@ export default function Home() {
         </p>
 
         <div>
-          <a href="https://github.com/gbguimaraes">
+          <a href="https://github.com/gbguimaraes" target="_blank">
             <img src="/github.svg" alt="GitHub Logo" className={pages.logo} />
           </a>
           
-          <a href="https://www.linkedin.com/in/guilhermebguimaraes/">
+          <a href="https://www.linkedin.com/in/guilhermebguimaraes/" target="_blank">
             <img src="/linkedin.svg" alt="Linkedin Logo" className={pages.logo} />
           </a>
           
@@ -81,7 +81,7 @@ export default function Home() {
       <footer className={pages.footer}>
         <div className={pages.link}><a className="link" href="https://github.com/gbguimaraes/gbguimaraes_portfolio">Source code on Github</a></div>
         
-        <a>© 2021 Made with<img src="/heart-outline.svg" alt="GitHub Logo" className={pages.logofooter}/> Guilherme B. Guimarães</a>
+        <a>© 2021 Made with<img src="/heart-outline.svg" alt="Heart Logo" className={pages.logofooter}/>Guilherme B. Guimarães</a>
       </footer>
     </div>
   )
