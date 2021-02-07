@@ -24,7 +24,7 @@ export default function Home() {
 
       <main className={pages.main}>
         <h1 className={home.title}>
-          <a>Guilherme B. Guimarães</a>
+          <a color="black">Hi, I'm </a><a>Guilherme</a>
         </h1>
 
         <p className={home.description}>
