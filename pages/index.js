@@ -58,8 +58,8 @@ export default function Home() {
 
         <div className={index.grid}> 
           
-          <a className={index.card}>
-            <h3>Documentation &rarr;</h3>
+          {/* <a className={index.card}>
+            <h3>Skills</h3>
             <img src="/html5.svg" alt="HTML5" className={index.logo} />
             <img src="/css3.svg" alt="CSS3" className={index.logo} />
             <img src="/javascript.svg" alt="JavaScript" className={index.logo} />
@@ -67,41 +67,44 @@ export default function Home() {
           </a>
           
           <a className={index.card}>
-            <h3>Documentation &rarr;</h3>
+            <h3>Learn</h3>
             <img src="/react.svg" alt="React" className={index.logo} />
             <img src="/nodejs.svg" alt="Node Js" className={index.logo} />
             <img src="/nextjs.svg" alt="Next Js" className={index.logo} />
             <img src="/python.svg" alt="Python" className={index.logo} />
-          </a>
+          </a> */}
 
+          
           <Link href="./about">
             <a className={index.card}>
-              <h3>Documentation &rarr;</h3>
+            <p className={index.padding}>Documentation &rarr;</p>
               <p>Find in-depth information about Next.js features and API.</p>
             </a>
           </Link>
           
           <a href="https://nextjs.org/learn" className={index.card}>
-            <h3>Learn &rarr;</h3>
+            <p className={index.padding}>Learn &rarr;</p>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={index.card}
-          >
-            <h3>Examples &rarr;</h3>
+          <a href="https://github.com/vercel/next.js/tree/master/examples" className={index.card}>
+            <p className={index.padding}>Examples &rarr;</p>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={index.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+          <a href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app" className={index.card}>
+            <p className={index.padding}>Deploy &rarr;</p>
+            <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
+          </a>
+
+          <a href="https://github.com/vercel/next.js/tree/master/examples" className={index.card}>
+            <p className={index.padding}>Examples &rarr;</p>
+            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          </a>
+
+          <a href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app" className={index.card}>
+            <p className={index.padding}>Deploy &rarr;</p>
+            <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
           </a>
         </div>
 
