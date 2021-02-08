@@ -1,11 +1,18 @@
 {
-  "name" : "gbguimaraes_portfolio",
-  "description" : "NextJS Portfolio - A simple personal portfolio using Next.js and React.js to be implemented using Vercel's service.",
-  "homepage" : "",
-  "keywords" : ["nextjs", "portfolio", "vercel", "react"],
-  "author" : "Guilherme B. Guimarães",
-  "repository" : {"type": "git", "url": "git://github.com/gbguimaraes/gbguimaraes_portfolio.git"},
-  "main" : "underscore.js",
+  "name": "gbguimaraes_portfolio",
+  "description": "NextJS Portfolio - A simple personal portfolio using Next.js and React.js to be implemented using Vercel's service.",
+  "homepage": "",
+  "keywords": [
+    "nextjs",
+    "portfolio",
+    "vercel",
+    "react"
+  ],
+  "author": "Guilherme B. Guimarães",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gbguimaraes/gbguimaraes_portfolio.git"
+  },
   "version": "0.1.0",
   "private": true,
   "scripts": {
