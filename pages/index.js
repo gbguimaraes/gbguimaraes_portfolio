@@ -51,6 +51,10 @@ export default function Home() {
           <a href="https://www.linkedin.com/in/guilhermebguimaraes/" target="_blank">
             <img src="/linkedin.svg" alt="Linkedin Logo" className={index.logo} />
           </a>
+
+          <a href="http://lattes.cnpq.br/1798308753572986" target="_blank">
+            <img src="/lattes.svg" alt="Plataforma Lattes Logo" className={index.logo} />
+          </a>
           
         </div>
 
