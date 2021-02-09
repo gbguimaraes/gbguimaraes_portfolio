@@ -75,17 +75,19 @@ export default function Home() {
           </a> */}
 
           
-          <Link href="./about">
+          <Link href="./projects/project1">
             <a className={index.card}>
-            <p className={index.padding}>Documentation &rarr;</p>
+            <p className={index.padding}>Project Number One &rarr;</p>
               <p>Find in-depth information about Next.js features and API.</p>
             </a>
           </Link>
           
+          <Link href="./projects/first-post">
           <a href="https://nextjs.org/learn" className={index.card}>
             <p className={index.padding}>Learn &rarr;</p>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
+          </Link>
 
           <a href="https://github.com/vercel/next.js/tree/master/examples" className={index.card}>
             <p className={index.padding}>Examples &rarr;</p>
@@ -111,9 +113,12 @@ export default function Home() {
       </main>
 
       <div className={index.footer}>
-        <div className={index.link}><a className="link" href="https://github.com/gbguimaraes/gbguimaraes_portfolio">Source code on Github</a></div>
-        
+        <div className={index.link}>
+          <a className="link" href="https://github.com/gbguimaraes/gbguimaraes_portfolio" target="_blank">Source code on Github</a>
+        </div>
+        <div>
         <a>© 2021 Made with<img src="/heart-outline.svg" alt="Heart Logo" className={index.logofooter}/>Guilherme B. Guimarães</a>
+        </div>
       </div>
     </div>
   )
